@@ -26,7 +26,7 @@ function drawMenu(stringTable)
     local lenght = tableLenght(stringTable)
     local terug
     for i = 1, #stringTable do
-        if (mouselastclick.y == i - 1) then
+        if (mouselastclick.y == i) then
             if (mainMenu.select == stringTable[i] and mouseclickt) then
                 term.write("!")
                 terug = i
