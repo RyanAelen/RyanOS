@@ -1,6 +1,6 @@
 local running = true
 local mainMenu = {"Start", "Debug", "Exit"}
-mainMenu.select = "Start"
+mainMenu.select = ""
 local windowsstate = 0
 local mouselastclick = {}
 mouselastclick.x = 0
