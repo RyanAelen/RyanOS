@@ -1,5 +1,5 @@
 local running = true
-local mainMenu = {"Start", "Debug", "Exit"}
+local mainMenu = {"Start", "Debug","Update","Exit"}
 mainMenu.select = ""
 local windowsstate = 0
 local mouselastclick = {}
@@ -67,7 +67,7 @@ while running do
         elseif geklickt == 2 then
             -- doe iets met debug 
             debug = not debug
-        elseif geklickt == 3 then
+        elseif geklickt == 4 then
             -- exit program
             running = false
         else
